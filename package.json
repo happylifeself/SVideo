@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build && next export",
+	   "postbuild": "touch out/.static", 
     "start": "next start",
     "lint": "eslint",
     "pages:build": "npx @cloudflare/next-on-pages@1"
