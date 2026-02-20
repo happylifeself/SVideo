@@ -10,7 +10,7 @@ const nextConfig: NextConfig = {
     removeConsole: process.env.NODE_ENV === 'production',
   },
 
-  output: 'export',
+  output: 'standalone',
   outputFileTracingRoot: __dirname,
   turbopack: {
     root: __dirname,
